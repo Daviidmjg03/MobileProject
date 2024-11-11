@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProjectMobile7._0.Pages.AboutPage"
+             Title="About">
+
+    <StackLayout Padding="30" VerticalOptions="Center" Spacing="20">
+
+        <Image Source="fotoperfilexemplo.PNG" WidthRequest="120" HeightRequest="120" HorizontalOptions="Center" />
+
+        <Frame Padding="20" BorderColor="Gray" CornerRadius="10">
+            <StackLayout Spacing="10">
+                <Label Text="Author: David Manuel Jesus Gonçalves" FontSize="20" HorizontalOptions="Center" TextColor="Black"/>
+                <Label Text="Version: 1.0.0" FontSize="18" HorizontalOptions="Center" TextColor="Gray"/>
+                <Label Text="Release Date: 20/11/2024" FontSize="18" HorizontalOptions="Center" TextColor="Gray"/>
+            </StackLayout>
+        </Frame>
+
+        <Label Text="This application was developed to provide an intuitive interface rich in features for users."
+       FontSize="16" HorizontalOptions="Center" TextColor="Black" HorizontalTextAlignment="Center"/>
+
+    </StackLayout>
+</ContentPage>
